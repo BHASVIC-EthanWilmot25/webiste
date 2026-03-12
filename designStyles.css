@@ -2,18 +2,25 @@
 /* css document */
 
 body{
-background-color: #ff06b5;
-padding: 0;
+	background-color: #ff06b5;
+	padding: 0;
     margin: 0;   
     width:100vw;
-    height: 100vh; }
+    height: 100vh;
+}
+.item{
+	width: 20vw;
+	height: 20vh;
+	background-size: 20vw 20vh;
+	
+}	
 
 #container { 
  position: absolute;
  top: 0;
  float: center;
  width: 100%; 
- height: 100%;
+ height: 100vh;
  background: #00ffff;     
  margin: 0 auto;     
  border: 1px solid #000;     
@@ -28,15 +35,11 @@ padding: 0;
 	padding-right: 10px;
 	padding-bottom: 15px;
 	padding-left: 20px;
-    transition: transform 5s;
 	background-size: 100px;
-	background-image: url(https://tse2.mm.bing.net/th/id/OIP.HqL4yKkvK-LnUUQp4yaapAHaEj?cb=thfvnext&rs=1&pid=ImgDetMain&o=7&rm=3);
+	
 }
  
- 
-#sidebar:hover {
-  transform:  scale3d(-3, -3, 1) rotateX(-297deg) rotateY(240deg) rotateZ(-129deg) translate3d(100px, -100px, 100px) skew(-98deg, 61deg);
-}
+
 
 #mainContent { 
  top: 500px;  
@@ -45,6 +48,14 @@ padding: 0;
  margin-right: 20vw;       
 
 } 
+#hpome {
+	position: top;
+	width: 70vw;
+	
+	padding-left: 20vw;
+	margin-right: 20vw;
+	background-image: url("image/Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_(ca._1695).jpg");
+}	
  
  .titles{
 	font-family: papyrus;
@@ -97,7 +108,7 @@ ul{
 	color: #F0F;
 }
 body{
-	font-family: "Bauhaus 93 Regular";
+	font-family: "Papyrus";
 	font-size: 400px
 	color: #f30bc5;
 	background-image: url(https://tse2.mm.bing.net/th/id/OIP.HqL4yKkvK-LnUUQp4yaapAHaEj?cb=thfvnext&rs=1&pid=ImgDetMain&o=7&rm=3);
