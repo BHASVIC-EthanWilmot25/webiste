@@ -23,8 +23,7 @@ body{
  width: 100%; 
  height: 100vh;
  background: #00ffff;     
- margin: 0 auto;     
- border: 1px solid #000;     
+ margin: 0 auto;
  text-align: left;  } 
  
 #sidebar {
@@ -56,7 +55,8 @@ body{
 	padding-left: 20vw;
 	margin-right: 20vw;
 	background-image: url("image/Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_(ca._1695).jpg");
-}	
+	background-size: 100% 100%;
+	}	
  
  .titles{
 	font-family: papyrus;
