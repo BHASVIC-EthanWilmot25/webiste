@@ -9,6 +9,7 @@ body{
     height: 100vh;
 }
 .item{
+	position: sticky;
 	width: 20vw;
 	height: 20vh;
 	background-size: 20vw 20vh;
